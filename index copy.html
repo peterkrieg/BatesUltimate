@@ -1,0 +1,1298 @@
+<!-- Created by Peter Krieg.  Credit to blacktieco for shield bootstrap template -->
+
+
+<!--  
+
+  
+ ___           _________
+|   \  |****      %        |****
+|___|  |          %        |
+|      |****      %        |****
+|      |          %        |
+|      |****      %        |****
+
+
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en"   class="loading">
+  <head>
+
+  	
+
+
+
+
+  	<style>
+			html {
+				-webkit-transition: background-color 1s;
+				transition: background-color 1s;
+			}
+			html, body { min-height: 100%; }
+			html.loading {
+				background: #333 url('gif.gif') no-repeat 50% 50%;
+				-webkit-transition: background-color 0;
+				transition: background-color 0;
+			}
+			body {
+				-webkit-transition: opacity 1s ease-in;
+				transition: opacity 1s ease-in;
+			}
+			html.loading body {
+				opacity: 0;
+				-webkit-transition: opacity 20;
+				transition: opacity 0;
+			}
+			button {
+				background: #00A3FF;
+				color: white;
+				padding: 0.2em 0.5em;
+				font-size: 1.5em;
+			}
+		</style>
+		<script>
+			var html = document.getElementsByTagName('html')[0];
+			var removeLoading = function() {
+				// In a production application you would remove the loading class when your
+				// application is initialized and ready to go.  Here we just artificially wait
+				// 3 seconds before removing the class.
+				setTimeout(function() {
+					html.className = html.className.replace(/loading/, '');
+				}, 100);
+			};
+			removeLoading();
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bates College Ultimate">
+    <meta name="author" content="Peter Krieg - Bates College">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title> Bates College Ultimate</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link href="assets/css/animate-custom.css" rel="stylesheet">
+
+
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+<!--GOOGLE FONTS ARE LISTED BELOW-->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+			<link href='http://fonts.googleapis.com/css?family=New+Rocker' rel='stylesheet' type='text/css'>
+
+
+<!-- Font AWESOME IS BELOW -->
+
+
+
+<link href="assets/fontawesome/css/font-awesome.css" rel="stylesheet">
+
+
+
+
+
+    <script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+	
+
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+  
+  
+  	<div id="navbar-main" >
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top"  >
+      <div class="container"  >
+        
+        <div class="navbar-collapse collapse"  >
+          <ul class="nav navbar-nav" >
+            <li><a href="#home" class="smoothScroll">Home</a></li>
+			<li> <a href="#history" class="smoothScroll"> History</a></li>
+			<li> <a href="#teamtoday" class="smoothScroll"> Team Today</a></li>
+			<li> <a href="#coldfront" class="smoothScroll"> Cold Front</a></li>
+			<li> <a href="#captains" class="smoothScroll"> Captains</a></li>
+			<li> <a href="#alum" class="smoothScroll"> Alumni</a></li>
+			<li> <a href="#pictures" class="smoothScroll"> Pictures</a></li>
+			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    </div>
+
+  
+  
+		<!-- ==== HEADERWRAP ==== -->
+	    <div id="headerwrap" id="home" name="home">
+			<header class="clearfix">
+	  		 		<h1>Orange Whip Ultimate</h1>
+	  		 		<!-- <p style="font-family: Cinzel; font-weight: bold; color: #CE6106;">Orange Whip Ultimate</p> -->
+	  		 		<h2>The Official Men's Flatball Team of Bates College  <a href="#about" class="smoothScroll">
+
+	  		 		<br>
+	  		 		<br>
+
+	  		 		 <span class="fa fa-chevron-down fa-2x">  </span></a></h2>
+	  		</header>	    
+	    </div><!-- /headerwrap -->
+
+		
+		
+		<!-- ==== ABOUT ==== -->
+		<div class="container" id="history" name="about">
+			<div class="row white">
+			<br>
+				<h1 style="font-size: 60px;" class="centered">HISTORY</h1>
+				<hr>
+				
+				<div class="col-md-7">
+					<p>   The beginning of Ultimate at Bates is clouded in myth. Initially there was a game played by Bates students similar to Ultimate during the late '50s. Perhaps this was the true beginning of Ultimate? A few Bates students would toss around a Pabst Blue Ribbon beer tray as a Frisbee. Eventually rules and end zones were introduced to there new game (Bates Magazine 1999). However, Ultimate faded away and disappeared from the Bates campus. </p>
+
+		<p> Ultimate reemerged at Bates during the '80s with official recognition by the college of the Ultimate Frisbee club in 1981. The team was known as the Bates (Frisbee) Masters and was regarded as a counter-culture group by the athletic department. Practices were held on a field that was where the Olin Arts center is today. Another place they played was the "field" surrounded by Commons, the Library, the Grey Cage and the Bill. In the winter, the pickup players moved into the Grey Cage which had a dirt floor at the time. The spirit of Bates Ultimate was relaxed and fun. Occasionally they would play against Bowdoin and Colby. </p> 
+
+		<p> Bates' "formal" Ultimate career began in 1992. The Crack Babies tentatively existed until 1995. In 1995 with few returning Crack Babies, Bates Ultimate decided to take on the new name Discoboles from the Greek statue of the Olympic discus thrower in his stance. That was also the year of the inaugural NESCRACK Invitational Tournament hosted by Bates College.  In its first year there were only 4 teams, but NESCRACK developed and eventually played host to teams from all over Maine and New Hampshire. The changing facade of Bates Ultimate was not over yet. In 1996 the team changed its name to Big Fat Yak. The final name change occurred in 1998 to Orange Whip.   </p>
+				</div><!-- col-lg-6 -->
+				
+				<div class="col-md-5" style="padding-left:70px;">
+
+
+					<img class="featurette-image img-responsive img-circle" src="assets/img/crackbabies.gif" alt="Generic placeholder image" style="max-width: 80%">
+
+
+					<br>
+					<br>
+
+
+				<img class="featurette-image img-responsive img-circle" src="assets/img/chefwhip.jpg" alt="Generic placeholder image" style="max-width: 80%" >
+
+
+
+				</div><!-- col-lg-6 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+		<!-- ==== SECTION DIVIDER1 -->
+		<section class="section-divider textdivider divider1" id="teamtoday" style="height:600px;">
+			<div class="container">
+				<h1 style="color: #CE6106; font-size: 60px; margin-top:-50px;">THE TEAM TODAY</h1>
+				
+				
+			</div><!-- container -->
+		</section><!-- section -->
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="row featurette">
+        <div class="col-md-5">
+
+          
+          <img class="featurette-image img-responsive " src="assets/img/huddle.jpg" alt="Generic placeholder image" style="padding:80px;" >
+
+          <img class="featurette-image img-responsive" src="assets/img/freshmen.jpg" alt="Our Freshmen" style="padding-left:80px; padding-right: 80px; padding-bottom: 20px;">
+      
+
+        </div>
+        <div class="col-md-7">
+          
+
+          <br>  <br>  <br>
+          
+
+
+
+
+<p>  Today Orange Whip competes in college tournaments across the Northeast and strives to improve as a team. We hope to continue the light-hearted nature and camaraderie that was enjoyed by the Bates students before us. In 2008, Orange Whip became the men's ultimate frisbee team and Cold Front became the women's ultimate frisbee team. </p>
+
+
+<p>
+ In 2011, Bates was lucky to have Brian York join the team as volunteer Coach.  Brian, a former player of the skilled club team  Red Tide,   has turned the men's ultimate team into a competitive program with more structure.  Since adding Brian as coach, Bates has qualified for New England Regionals for three straight years, an accomplishment <span style= "font-style: italic;"> never </span> before reached.  The ultimate (punny?) goal in upcoming seasons is to qualify for nationals.  </p>
+
+
+
+<p> Bates ultimate has activities year-round which interest a wide variety of players.  The fall season is generally more relaxed, with fun coed tournaments in places like Montreal.  During the long Maine winter, we keep things hot by participating in a coed indoor frisbee league where games are played in Merrill Gym.  The Spring is the competitive season during which the men's team practices and conditions 4-5 times a week, playing in weekend tournaments in locations around Boston to as far as Pennsylvania.  </p>
+
+
+<p> We're always welcoming new members on our team, so if you have any interest in trying ultimate, come and join us! We encourage interested players to contact a captain or show up to one of our practices. We welcome all levels of participation: from just occasional practice attendance to full time commitment.  </p>
+
+<p> Ultimate is a sport quickly gaining popularity across the country due to its fast pace and action-packed highlights. Combining different aspects of sports like soccer and football, ultimate challenges players to run faster, jump higher, and throw farther. Players often describe it as the most exciting sport they've ever played. See some <a href= "https://www.youtube.com/watch?v=OS0XWoTkjCA"  target="blank"> <span style="font-weight: bold">highlight videos </span></a>  if you're still not convinced.  </p>
+
+
+
+
+
+        </div>
+      </div>
+
+
+<br>
+
+
+
+		<!-- ==== SECTION DIVIDER3 -->
+		<section class="section-divider textdivider divider3" id="coldfront">
+			<div class="container">
+				<h1 style="color:#103A79; font-size: 110px; margin-top: 200px">COLD FRONT</h1>
+				
+				<br>
+				
+
+				<p style="color:#103A79; font-size: 30px;">Cold Front is the women's ultimate team.  More info coming soon..</p>
+			</div><!-- container -->
+		</section><!-- section -->
+
+
+
+
+		<!-- ==== TEAM MEMBERS ==== -->
+		<div class="container" id="captains" name="team">
+		<br>
+			<div class="row white centered">
+				<h1 style="font-size: 60px;" class="centered">MEET THE CAPTAINS</h1>
+				<hr>
+				<br>
+				<br>
+				<div class="col-lg-2 centered" style="width:223px;">
+					<img class="img img-circle" src="http://abacus.bates.edu/people/orgs/ultimate/newwebsite2/assets/img/tyson.jpg" height="120px" width="120px" alt="">
+					<br>
+					<h4 style="text-shadow:none;"><b>Sean Murphy '15</b></h4>
+					<a href="mailto: smurphy4@bates.edu" class="fa fa-envelope" style="padding-right:10px;" target="blank"></a>
+					<a href="https://www.facebook.com/TimmyWalnuts" class="fa fa-facebook" target="blank"></a>
+					<p>Sean "T&#165$0N" Murphy vividly remembers his dad lovingly instructing him how to throw a frisbee at the ripe age of 5. Ever since then, his life has been one never-ending pursuit of hovering, circular objects. His hobbies include drones, odd electronic music producers, and black hoodies. He is currently a senior at Bates College where he is studying English.</p>
+				</div><!-- col-lg-3 -->
+				
+				<div class="col-lg-2 centered "style="width:223px;">
+					<img class="img img-circle" src="assets/img/dylan.jpg" height="120px" width="120px" alt="">
+					<br>
+					<h4 style="text-shadow:none;"><b>Dylan Lopez '15</b></h4>
+					<a href="mailto: dlopez@bates.edu" class="fa fa-envelope" style="padding-right:10px;" target="blank"></a>
+					<a href="https://www.facebook.com/dylan.g.lopez" class="fa fa-facebook" target="blank"></a>
+					<p>Description coming soon..</p>
+				</div><!-- col-lg-3 -->
+				
+				<div class="col-lg-2 centered"style="width:223px;">
+					<img class="img img-circle" src="assets/img/me.jpg" height="120px" width="120px" alt="">
+					<br>
+					<h4 style="text-shadow:none;"><b>Peter Krieg '15</b></h4>
+					<a href="mailto: pkrieg@bates.edu" class="fa fa-envelope" style="padding-right:10px;" target="blank"></a>
+					<a href="https://www.facebook.com/landiskreeb" class="fa fa-facebook" target="blank"></a>
+					<p>Peter has only played ultimate since his Sophomore year at Bates, but has loved every moment of it.  A D-line handler, he has strong tendency to throw hammers during games when they shouldn't be thrown.  Peter is a rising Senior Physics major who enjoys studying laser optics and eating ice cream sundaes.</p>
+				</div><!-- col-lg-3 -->
+				
+				<div class="col-lg-2 centered"style="width:223px;">
+					<img class="img img-circle" src="assets/img/future.jpg" height="120px" width="120px" alt="">
+					<br>
+					<h4 style="text-shadow:none;"><b>Chris Fox '16</b></h4>
+					<a href="mailto: cfox@bates.edu" class="fa fa-envelope" style="padding-right:10px;" target="blank"></a>
+					<a href="https://www.facebook.com/christopher.fox.313" class="fa fa-facebook" target="blank"></a>
+					<p>Description coming soon..</p>
+				</div><!-- col-lg-3 -->
+				<div class="col-lg-2 centered"style="width:223px;">
+					<img class="img img-circle" src="assets/img/mcfly.jpg" height="120px" width="120px" alt="">
+					<br>
+					<h4 style="text-shadow:none;"><b> Emmet Shipway '16</b></h4>
+					<a href="mailto: dshipway@bates.edu" class="fa fa-envelope" style="padding-right:10px;" target="blank"></a>
+					<a href="https://www.facebook.com/Emmmet" class="fa fa-facebook" target="blank"></a>
+					<p>Description coming soon.. </p>
+				</div><!-- col-lg-3 -->
+
+				
+			</div><!-- row -->
+		</div><!-- container -->
+
+		
+
+		<section class="section-divider textdivider divider7" id="alum">
+			<div class="container">
+				<h1 style="color:white; font-size: 90px; margin-top: 200px">ALUMNI</h1>
+				
+				<br>
+				
+
+				<p style="color:white; font-size: 30px;">Section coming soon..</p>
+			</div><!-- container -->
+		</section><!-- section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+
+
+
+
+
+
+
+
+		<!-- ==== PICTURES OF TEAM ===================================================================================================  -->
+		<div class="container" id="pictures" name="portfolio">
+		<br>
+			<div class="row">
+				<br>
+				<h1 class="centered">CHECK OUT SOME PICTURES</h1>
+				<hr>
+				<br>
+				<br>
+			</div><!-- /row -->
+			<div class="container">
+				<div class="row">	
+			
+
+
+
+
+				<!-- PORTFOLIO IMAGE 1 -->
+				<div class="col-md-4 ">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/regionals/emmet.jpg" alt="">
+							<figcaption>
+								<h5>REGIONALS 2014</h5>
+								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+				
+
+						 <!-- MODAL SHOW PICTURE 1 -->
+						      
+						  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Regionals 2014 &nbsp; | &nbsp; Amherst, MA &nbsp; |  &nbsp;  April 26-27, 2014</h4>
+						        </div>
+						        <div class="modal-body">
+
+									<div id="myCarousel" class="carousel slide" data-ride="carousel">
+								      <!-- Indicators -->
+								      <ol class="carousel-indicators">
+								        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								        <li data-target="#myCarousel" data-slide-to="1"></li>
+								        <li data-target="#myCarousel" data-slide-to="2"></li>
+										<li data-target="#myCarousel" data-slide-to="3"></li>
+								        <li data-target="#myCarousel" data-slide-to="4"></li>
+								        <li data-target="#myCarousel" data-slide-to="5"></li>
+								      </ol>
+
+									  <div class="carousel-inner">
+								        <div class="item active">
+								          <img src="assets/img/regionals/emmet.jpg" alt="First slide">
+								          <div class="container">
+								            <div class="carousel-caption">
+								              <h1>Regionals 2014</h1>     
+								            </div>
+								          </div>
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/regionals/nate.jpg" alt="Second slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/regionals/specthrow.jpg" alt="Third slide">
+								        </div>
+								    
+								      	<div class="item">
+								          <img src="assets/img/regionals/futureaction.jpg" alt="fourth slide">
+								        </div>
+								      
+								 		<div class="item">
+								          <img src="assets/img/regionals/spencer.jpg" alt="fifth slide">
+								        </div>
+
+										<div class="item">
+								          <img src="assets/img/regionals/teamregionals.jpg" alt="sixth slide">
+								        </div>
+
+								      </div>
+
+								      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+								      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+								    </div><!-- /.carousel -->
+
+								    <br>
+
+								    <a href="https://www.flickr.com/photos/123546177@N03/sets/72157644443314682/" target="blank" style="font-weight: bold;"> See all photos </a>
+
+
+
+    								<p style="padding-top:10px;">  Seeded dead last in 10th place, Bates wasn't expected to accomplish anything at regionals.  Then, the first two games, we handily beat Bryant and Brandeis, two teams that eventually qualified for nationals.  Unfortunately, Bates lost the next four games over the course of the weekend--and finished in 8th place.  Despite the disappointing finish, we were still happy to break seed--and proved that we can compete with any team when we play consistently.  </p>
+
+
+						        	</div>
+						        	<div class="modal-footer">
+						          	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        	</div>
+						      	</div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+				
+				
+
+
+
+				<!-- PORTFOLIO IMAGE 2 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/sectionals/natefingercatch.jpg" alt="">
+							<figcaption>
+								<h5>SECTIONALS 2014</h5>
+								<a data-toggle="modal" href="#sectionals" class="btn btn-primary btn-lg">Take a Look</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+
+
+
+    
+						  <div class="modal fade" id="sectionals" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Sectionals 2014 &nbsp; | &nbsp; Keene State, NH &nbsp; | &nbsp;  April 19-20, 2014  </h4>
+						        </div>
+						        <div class="modal-body">
+
+									<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+								      <!-- Indicators -->
+								      <ol class="carousel-indicators">
+								        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+								        <li data-target="#myCarousel2" data-slide-to="1"></li>
+								        <li data-target="#myCarousel2" data-slide-to="2"></li>
+										<li data-target="#myCarousel2" data-slide-to="3"></li>
+								        <li data-target="#myCarousel2" data-slide-to="4"></li>
+								        <li data-target="#myCarousel2" data-slide-to="5"></li>
+								        <li data-target="#myCarousel2" data-slide-to="6"></li>
+								      </ol>
+
+									  <div class="carousel-inner">
+								        <div class="item active">
+								          <img src="assets/img/sectionals/natefingercatch.jpg" alt="First slide">
+								          <div class="container">
+								            <div class="carousel-caption">
+								              <h1>Sectionals 2014</h1>     
+								            </div>
+								          </div>
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/sectionals/alexexcited.jpg" alt="Second slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/sectionals/robin.jpg" alt="Third slide">
+								        </div>
+								    
+								      	<div class="item">
+								          <img src="assets/img/sectionals/emmetmark.jpg" alt="fourth slide">
+								        </div>
+								      
+								 		<div class="item">
+								          <img src="assets/img/sectionals/cookies.jpg" alt="fifth slide">
+								        </div>
+
+										<div class="item">
+								          <img src="assets/img/sectionals/drugsclap.jpg" alt="sixth slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/sectionals/briantalking.jpg" alt="seventh slide">
+								        </div>
+
+								       
+
+								      </div>
+
+								      <a class="left carousel-control" href="#myCarousel2" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+								      <a class="right carousel-control" href="#myCarousel2" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+								    </div><!-- /.carousel -->
+
+								    <br>
+
+								    <a href="https://www.flickr.com/photos/123546177@N03/sets/72157644067170996/" target="blank" style="font-weight: bold;"> See all photos </a>
+
+
+    								<p style="padding-top: 10px;">  2014 Sectionals proved to be one of the deepest sections NNE has seen in  years.  Bates grinded through a difficult first day, losing to Bowdoin the first game, then beating Colby.  Bates pulled off a victory over host Keene State on universe point, ending in a hammer throw to David "Cookies" Smith.  Bates was exhausted for the last game and lost a hard-fought game to Middlebury.  The next day of the tournament Bates won two games over Franklin Pierce, then beat Keene State 15-8 in the go-to-regionals game.  This year marked the third year in a row Bates has qualified for regionals, a previously never achieved feat in the history of Orange Whip.  </p>
+
+
+						        	</div>
+						        	<div class="modal-footer">
+						          	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        	</div>
+						      	</div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!-- PORTFOLIO IMAGE 3 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/snowypractice/bluetyson.jpg" alt="">
+							<figcaption>
+								<h5>SNOWY PRACTICE</h5>
+								<a data-toggle="modal" href="#snowypractice" class="btn btn-primary btn-lg">Take a Look</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+			</div><!-- /row -->
+
+
+
+
+
+
+						  <div class="modal fade" id="snowypractice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Snowy Practice &nbsp; | &nbsp; Garcelon Field &nbsp; | &nbsp;  March 19, 2014  </h4>
+						        </div>
+						        <div class="modal-body">
+
+									<div id="myCarousel3" class="carousel slide" data-ride="carousel">
+								      <!-- Indicators -->
+								      <ol class="carousel-indicators">
+								        <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+								        <li data-target="#myCarousel3" data-slide-to="1"></li>
+								        <li data-target="#myCarousel3" data-slide-to="2"></li>
+										<li data-target="#myCarousel3" data-slide-to="3"></li>
+								        <li data-target="#myCarousel3" data-slide-to="4"></li>
+								        <li data-target="#myCarousel3" data-slide-to="5"></li>
+								        <li data-target="#myCarousel3" data-slide-to="6"></li>
+								        <li data-target="#myCarousel3" data-slide-to="7"></li>
+								        <li data-target="#myCarousel3" data-slide-to="8"></li>
+								      </ol>
+
+									  <div class="carousel-inner">
+								        <div class="item active">
+								          <img src="assets/img/snowypractice/bluetyson.jpg" alt="First slide">
+								          <div class="container">
+								            <div class="carousel-caption">
+								              <h1 style="color: white;">Snowy Practice</h1>     
+								            </div>
+								          </div>
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/snowypractice/emmetspencer.jpg" alt="Second slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/snowypractice/alexlayout.jpg" alt="Third slide">
+								        </div>
+								    
+								      	<div class="item">
+								          <img src="assets/img/snowypractice/snow.jpg" alt="fourth slide">
+								        </div>
+								      
+								 		<div class="item">
+								          <img src="assets/img/snowypractice/tysonhighrelease.jpg" alt="fifth slide">
+								        </div>
+
+										<div class="item">
+								          <img src="assets/img/snowypractice/speccookies.jpg" alt="sixth slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/snowypractice/speccatch.jpg" alt="seventh slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/snowypractice/snowylook.jpg" alt="eighth slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/snowypractice/robinexcited.jpg" alt="ninth slide">
+								        </div>
+
+								       
+
+								      </div>
+
+								      <a class="left carousel-control" href="#myCarousel3" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+								      <a class="right carousel-control" href="#myCarousel3" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+								    </div><!-- /.carousel -->
+
+								    <br>
+
+								    <a href="https://www.flickr.com/photos/123546177@N03/sets/72157644067090336/" target="blank" style="font-weight: bold;"> See all photos </a>
+
+
+    								<p style="padding-top: 10px">  Bates O Whip has almost all of its Spring practices on Garcelon field from 9-11 PM.  Club Frisbee simply gets the shortest end of the stick, always.  Fortunately, one night this brought some beautfiul snow which made for some picturesque pictures.  Playing ultimate well is half the battle, looking good is just as important.  </p>
+
+
+						        	</div>
+						        	<div class="modal-footer">
+						          	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        	</div>
+						      	</div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+				
+
+
+
+
+
+
+
+
+
+
+
+				<!-- PORTFOLIO IMAGE 4 -->
+			<div class="row">	
+				<div class="col-md-4 ">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/unh/futurewindup.jpg" alt="">
+							<figcaption>
+								<h5>UNH TOURNAMENT</h5>
+								<a data-toggle="modal" href="#unh" class="btn btn-primary btn-lg">Take a Look</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+					<div class="modal fade" id="unh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">UNH Tournament Fall 2013 &nbsp; | &nbsp; UNH &nbsp; | &nbsp;  November 16-17, 2013  </h4>
+						        </div>
+						        <div class="modal-body">
+
+									<div id="myCarousel4" class="carousel slide" data-ride="carousel">
+								      <!-- Indicators -->
+								      <ol class="carousel-indicators">
+								        <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+								        <li data-target="#myCarousel4" data-slide-to="1"></li>
+								        <li data-target="#myCarousel4" data-slide-to="2"></li>
+										<li data-target="#myCarousel4" data-slide-to="3"></li>
+								        <li data-target="#myCarousel4" data-slide-to="4"></li>
+								        <li data-target="#myCarousel4" data-slide-to="5"></li>
+								        <li data-target="#myCarousel4" data-slide-to="6"></li>
+								      </ol>
+
+									  <div class="carousel-inner">
+								        <div class="item active">
+								          <img src="assets/img/unh/futurewindup.jpg" alt="First slide">
+								          <div class="container">
+								            <div class="carousel-caption">
+								              <h1>UNH Tournament 2014</h1>     
+								            </div>
+								          </div>
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/unh/alexthrow.jpg" alt="Second slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/unh/stagjump.jpg" alt="Third slide">
+								        </div>
+								    
+								      	<div class="item">
+								          <img src="assets/img/unh/futuresky.jpg" alt="fourth slide">
+								        </div>
+								      
+								 		<div class="item">
+								          <img src="assets/img/unh/cookieslayout.jpg" alt="fifth slide">
+								        </div>
+
+										<div class="item">
+								          <img src="assets/img/unh/shortarms.jpg" alt="sixth slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/unh/futurejump.jpg" alt="seventh slide">
+								        </div>
+
+								       
+
+								      </div>
+
+								      <a class="left carousel-control" href="#myCarousel4" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+								      <a class="right carousel-control" href="#myCarousel4" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+								    </div><!-- /.carousel -->
+
+								    <br>
+
+								    <a href="https://www.flickr.com/photos/123546177@N03/sets/72157644081733002/" target="blank" style="font-weight: bold;"> See all photos </a>
+
+
+    								<p style="padding-top:10px;">  On an unseasonably warm November weekend, Bates competed in the UNH fall club tournament.  Bates had a lot of fun during the weekend, enjoying excellent hopsitality from the Mardin family.  </p>
+
+
+
+
+						        	</div>
+						        	<div class="modal-footer">
+						          	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        	</div>
+						      	</div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
+
+
+
+
+
+
+				<!-- PORTFOLIO IMAGE 5 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/fallsectionals/cookieslayout.jpg" alt="">
+							<figcaption>
+								<h5>FALL SECTIONALS</h5>
+								<a data-toggle="modal" href="#fallsectionals" class="btn btn-primary btn-lg">Take a Look</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+
+					<div class="modal fade" id="fallsectionals" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					    <div class="modal-dialog">
+					        <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Fall Club Sectionals &nbsp; | &nbsp; Bowdoin College, Brunswick, ME &nbsp; | &nbsp;  September 16-17, 2013  </h4>
+						        </div>
+						        <div class="modal-body">
+
+									<div id="myCarousel5" class="carousel slide" data-ride="carousel">
+								      <!-- Indicators -->
+								      <ol class="carousel-indicators">
+								        <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+								        <li data-target="#myCarousel5" data-slide-to="1"></li>
+								        <li data-target="#myCarousel5" data-slide-to="2"></li>
+										<li data-target="#myCarousel5" data-slide-to="3"></li>
+								        <li data-target="#myCarousel5" data-slide-to="4"></li>
+								        <li data-target="#myCarousel5" data-slide-to="5"></li>
+								        <li data-target="#myCarousel5" data-slide-to="6"></li>
+								        <li data-target="#myCarousel5" data-slide-to="7"></li>
+								        <li data-target="#myCarousel5" data-slide-to="8"></li>
+								        <li data-target="#myCarousel5" data-slide-to="9"></li>
+								        <li data-target="#myCarousel5" data-slide-to="10"></li>
+								        <li data-target="#myCarousel5" data-slide-to="11"></li>
+								      </ol>
+
+									  <div class="carousel-inner">
+								        <div class="item active">
+								          <img src="assets/img/fallsectionals/cookieslayout.jpg" alt="First slide">
+								          <div class="container">
+								            <div class="carousel-caption">
+								              <h1>Club Sectionals 2014</h1>     
+								            </div>
+								          </div>
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/fallsectionals/jog.jpg" alt="Second slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/fallsectionals/dylanzoom.jpg" alt="Third slide">
+								        </div>
+								    
+								      	<div class="item">
+								          <img src="assets/img/fallsectionals/zone.jpg" alt="fourth slide">
+								        </div>
+								      
+								 		<div class="item">
+								          <img src="assets/img/fallsectionals/chrisstretch.jpg" alt="fifth slide">
+								        </div>
+
+										<div class="item">
+								          <img src="assets/img/fallsectionals/futuredrink.jpg" alt="sixth slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/fallsectionals/hustlesmile.jpg" alt="seventh slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/fallsectionals/chrissky.jpg" alt="eighth slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/fallsectionals/emmetthrow.jpg" alt="ninth slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/fallsectionals/futurereach.jpg" alt="tenth slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/fallsectionals/cookiesgratuitous.jpg" alt="eleventh slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/fallsectionals/brianteam.jpg" alt="twelfth slide">
+								        </div>
+
+								       
+
+								      </div>
+
+								      <a class="left carousel-control" href="#myCarousel5" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+								      <a class="right carousel-control" href="#myCarousel5" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+								    </div><!-- /.carousel -->
+
+								    <br>
+
+								    <a href="https://www.flickr.com/photos/123546177@N03/sets/72157644137229584/" target="blank" style="font-weight: bold;"> See all photos </a>
+
+
+    								<p style="padding-top:10px;">  For the first fall tournament of 2013, Bates went to Bowdoin to play in  club sectionals.  Bates ended the tournament happy with a big win over Bowdoin, along with experience against elite club teams in the area.  </p>
+
+
+
+
+						        	</div>
+						        	<div class="modal-footer">
+						          	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        	</div>
+						      	</div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
+
+
+
+
+
+<!-- PORTFOLIO IMAGE 6 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="assets/img/alumni/huddle.jpg" alt="">
+							<figcaption>
+								<h5>ALUM TOURNAMENT</h5>
+								<a data-toggle="modal" href="#alumnii" class="btn btn-primary btn-lg">Take a Look</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+			</div><!-- /row -->
+			<br>
+			<br>
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+
+					<div class="modal fade" id="alumnii" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Alumni Tournament &nbsp; | &nbsp; Softball Field &nbsp; | &nbsp;  September 28, 2013  </h4>
+						        </div>
+						        <div class="modal-body">
+
+									<div id="myCarousel6" class="carousel slide" data-ride="carousel">
+								      <!-- Indicators -->
+								      <ol class="carousel-indicators">
+								        <li data-target="#myCarousel6" data-slide-to="0" class="active"></li>
+								        <li data-target="#myCarousel6" data-slide-to="1"></li>
+								        <li data-target="#myCarousel6" data-slide-to="2"></li>
+										<li data-target="#myCarousel6" data-slide-to="3"></li>
+								        <li data-target="#myCarousel6" data-slide-to="4"></li>
+								        <li data-target="#myCarousel6" data-slide-to="5"></li>
+								        <li data-target="#myCarousel6" data-slide-to="6"></li>
+								        <li data-target="#myCarousel6" data-slide-to="7"></li>
+								      </ol>
+
+									  <div class="carousel-inner">
+								        <div class="item active">
+								          <img src="assets/img/alumni/huddle.jpg" alt="First slide">
+								          <div class="container">
+								            <div class="carousel-caption">
+								              <h1>Alumi Tournament 2013</h1>     
+								            </div>
+								          </div>
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/alumni/futurehigh.jpg" alt="Second slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/alumni/scoober.jpg" alt="Third slide">
+								        </div>
+								    
+								      	<div class="item">
+								          <img src="assets/img/alumni/dance.jpg" alt="fourth slide">
+								        </div>
+								      
+								 		<div class="item">
+								          <img src="assets/img/alumni/cookieszoom.jpg" alt="fifth slide">
+								        </div>
+
+										<div class="item">
+								          <img src="assets/img/alumni/morelease.jpg" alt="sixth slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/alumni/line.jpg" alt="seventh slide">
+								        </div>
+
+								        <div class="item">
+								          <img src="assets/img/alumni/christhrow.jpg" alt="eighth slide">
+								        </div>
+
+								       
+
+								      </div>
+
+								      <a class="left carousel-control" href="#myCarousel6" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+								      <a class="right carousel-control" href="#myCarousel6" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+								    </div><!-- /.carousel -->
+
+								    <br>
+
+								    <a href="https://www.flickr.com/photos/123546177@N03/sets/72157644081563656/" target="blank" style="font-weight: bold;"> See all photos </a>
+
+
+    								<p style="padding-top: 10px">   Every year, Bates Ultimate throws the popular alumni tournament, where the old players battle the young.  This year was as close of a game as ever, with the alumni narrowly losing.  </p>
+
+
+						        	</div>
+						        	<div class="modal-footer">
+						          	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        	</div>
+						      	</div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
+
+
+
+
+
+
+
+
+
+
+
+						  	
+
+
+
+						  	</div>
+						  </div>
+						</div>
+
+
+
+
+
+
+
+
+				
+				
+
+		
+				<p style="text-align: center; font-size: 20px; margin-top:-40px;">  To see more pictures, check out the Bates Men's Ultimate Flickr <a href="https://www.flickr.com/photos/123546177@N03/sets/" target="blank" > here </a>.  </p>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- ==== SECTION DIVIDER6 ==== -->
+		<section class="section-divider textdivider divider6">
+			<div class="container">
+				<h1 style="font-size: 50px;  color: #CE6106; margin-top:-50px;">LEWISTON, ME</h1>
+				
+			</div><!-- container -->
+		</section><!-- section -->
+		
+		<div class="container" id="contact" name="contact">
+			<div class="row">
+			<br>
+				<h1 class="centered">THANKS FOR VISITING US</h1>
+				<hr>
+				<br>
+				<br>
+				<div class="col-lg-4">
+					<h3 style="text-shadow:none; ">Contact Information</h3>
+					<br>
+					<p><span class="icon icon-home"></span> 369 Bates College, Lewiston, ME 04240<br/>
+						
+						<span class="contactinfo">
+							<span class="icon icon-envelop"></span> <a href="mailto: owhip.captains@gmail.com" target="blank" > owhip.captains@gmail.com</a> <br/>
+							<span class="icon icon-twitter"></span> <a href="https://twitter.com/O_whip" target="blank" > @O_whip </a> <br/>
+							<span class="icon icon-flickr"></span> <a href="https://www.flickr.com/photos/123546177@N03/sets/"   target="blank"> Bates Ultimate </a> <br/>
+						</span>
+					</p>
+				</div><!-- col -->
+				
+				
+				
+				<div class="col-lg-4">
+					<h3 style="text-shadow:none;">Support Us</h3>
+					<p style="padding-bottom: 10px; padding-top:20px;">While Bates Ultimate receives annual funds from the student government committee, we face overwhelming expenses while trying to be a competitive team.  In Spring 2014, Bates Men's Ultimate participated in six tournaments, traveling as far as Pennsylvania to play on fields not covered by snow.  Please consider donating to the men's or women's ultimate team at the link below.  Your gift will directly benefit our clubs by helping pay for travel expenses, equipment, and tournament fees.  </p>
+
+					<a href="https://securelb.imodules.com/s/209/one-column-form.aspx?sid=209&gid=1&pgid=500&cid=1139&utm_source=fba&utm_medium=site&utm_campaign=Bates+Fund" target="blank"> <button a href="google.com" type="submit" class="btn btn-success" style="text-align: center; padding-bottom: 10px;">Donate</button> </a>
+
+					<br>
+
+					<br>
+
+				</div><!-- col -->
+
+				<div class="col-lg-4">
+					<img class= "img-responsive img-circle" src="assets/img/spencerjosh.jpg" style="padding-lef:40px; padding-top:40px; padding-bottom:40px; width: 90%;">
+
+				</div>
+
+			</div><!-- row -->
+		
+		</div><!-- container -->
+
+		<div id="footerwrap">
+			<div class="container">
+				<h4 style="font-family: Raleway;">Created by <a href="mailto: pkrieg@bates.edu" target="blank">  Peter Krieg</a> - &#169 2014</h4>
+			</div>
+		</div>
+
+		
+
+<!-- GOOGLE ANALYTICS STUFF -->
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47952150-2', 'http://abacus.bates.edu/people/orgs/ultimate/');
+  ga('send', 'pageview');
+  ga(‘set’, ‘&uid’, {{USER_ID}}); // Set the user ID using signed-in user_id.
+
+</script>
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		
+
+
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/retina.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+
+
+  </body>
+</html>
